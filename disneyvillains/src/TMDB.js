@@ -22,9 +22,15 @@ const TMDB = {
     },
     {
       "id": 10882,
-      "imagesvillain" : "https://vignette.wikia.nocookie.net/disney/images/0/05/Profile_-_Maleficent.jpeg/revision/latest/scale-to-width-down/516?cb=20190312020410",
-        "title": "maleficent",
+      "imagesvillain" : "https://vignette.wikia.nocookie.net/disney/images/0/05/Profile_-_Maleficent.jpeg",
+        "title": "Maleficent",
         "song": "https://youtu.be/OCjn4qoYmD0"
+    },
+    {
+      "id": 38757,
+      "imagesvillain" : "https://i.pinimg.com/236x/bb/7e/20/bb7e20b52554bb99cc9fa2a454308335.jpg",
+        "title": "Mother Gothel",
+        "song": "https://youtu.be/vRWzDWkgbTo"
     },
     
   ]

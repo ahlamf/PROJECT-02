@@ -18,7 +18,7 @@ import Disneylogo from '../assets/images/disneycas.jpg';
                  <img className="disneylogo" src={Disneylogo}/>
                  <h1>DISNEY VILLAINS</h1>
                  <hr/>
-                 <Link to="/Home">HOME</Link>
+                 <Link  className="nav-link" to="/Home">HOME</Link>
                  <Link  className="nav-link" to="/Villainscharecter">VILLAINS  CHARACTERS</Link>
                  <Link  className="nav-link" to="/Disneymovies">VILLAINS  MOVIES</Link>
              </Navbar>

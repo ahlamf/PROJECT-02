@@ -5,6 +5,7 @@ import Villians from '../assets/images/Villains.jpg';
 import Jafar from '../assets/images/Jafar.jpg';
 import Scar from '../assets/images/scar.jpg';
 import Maleficent from '../assets/images/Maleficent.jpg';
+import Mothergoal from '../assets/images/Mothergoal.jpg';
 import ModalVideo from 'react-modal-video';
 import Disneymovies from './Disneymovies';
 
@@ -41,7 +42,7 @@ export default class Villainscharecter extends Component {
                        Jafar is loosely based off the wicked sorcerer and vizier from the Aladdin folk tale in the One Thousand and One Nights collection of stories. With an elegant, yet cheeky approach to villainy, coupled with a dry sense of humor and menace, Jafar is amongst Disney's most renowned villains, and would later feature as a primary member of the Disney Villains franchise
                        </Card.Text>
                     </Card.Body>
-                    <Link className="nav-link" to="/Disneymovies">Movie Details</Link>
+                    <Button variant="primary" href="https://en.wikipedia.org/wiki/Jafar_(Disney)" target="_blank">More Details</Button>
                     <br/>
                     <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='eGD2m-nnyL4' onClose={() => this.setState({isOpen: false})} />
                     <Button variant="primary"  onClick={this.openModal} >Play Song</Button>
@@ -55,10 +56,10 @@ export default class Villainscharecter extends Component {
                        As one of Disney's most infamous villains—made especially notorious for his success in murdering Mufasa—Scar is a primary member of the Disney Villains franchise
                      </Card.Text>
                   </Card.Body>
-                  <Button variant="primary" >Movie Details</Button>
+                  <Button variant="primary" href="https://en.wikipedia.org/wiki/Scar_(The_Lion_King)" target="_blank">More Details</Button>
                   <br/>
                   <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='zPUe7O3ODHQ' onClose={() => this.setState({isOpen: false})} />
-                  <Button variant="primary"  onClick={this.openModal} >Play Song</Button>
+              <Button variant="primary"  onClick={this.openModal} >Play Song</Button>
               </Card>
               <Card text="white">
                  <Card.Img className="fiximg" variant="top" src={Maleficent} />
@@ -68,11 +69,11 @@ export default class Villainscharecter extends Component {
                    Maleficent is an evil fairy and the main antagonist of Disney's 1959 animated feature film, Sleeping Beauty. Maleficent is an incarnation of pure evil, and responsible for all misfortune in King Stefan's kingdom. She takes offense at not being invited to the christening of Princess Aurora and attempts revenge on King Stefan and Queen Leah by cursing the princess. She appears to be particularly disdainful of the three good fairies Flora, Fauna, and Merryweather, her polar opposites, who do all in their power to keep Maleficent's overwhelming evil magic at bay. She is frequently accompanied by her pet raven Diablo.
                    With her dark, elegant design, dramatic and flamboyant animation, and unlimited arsenal of magic powers at her command, Maleficent is one of the most popular and recognizable Disney Villains, in addition to being one of the primary members of the official franchise
                  </Card.Text>
-               </Card.Body>
-               <Button variant="primary">Movie Details</Button>
+               </Card.Body> 
+               <Button variant="primary" href="https://en.wikipedia.org/wiki/Maleficent" target="_blank">More Details</Button>
                <br/>
                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='OCjn4qoYmD0' onClose={() => this.setState({isOpen: false})} />
-              <Button variant="primary"  onClick={this.openModal} >Play Song</Button>
+               <Button variant="primary"  onClick={this.openModal} >Play Song</Button>
               </Card>
              </CardDeck>
 
@@ -80,16 +81,17 @@ export default class Villainscharecter extends Component {
 <br/>
                <CardDeck>
                <Card text="white">
-    <Card.Img variant="top" src={Villians} />
+    <Card.Img className="fiximg" variant="top" src={Mothergoal} />
     <Card.Body className="cards" >
-      <Card.Title className="title">Villains</Card.Title>
+      <Card.Title className="title">MOTHER GOTHEL</Card.Title>
       <Card.Text>
-        Villains
+      Mother Gothel is the main antagonist of Disney's 2010 animated feature film, Tangled. She is a wicked crone who retained youth for hundreds of years through the healing properties of a magic, golden flower. When the flower's powers are transferred to the hair of Rapunzel, Gothel kidnapped the princess and locked her away in a secluded tower, where she hoarded Rapunzel's healing magic. To keep the princess under her control, Gothel posed as Rapunzel's loving, albeit overprotective mother with a mission to protect her daughter from the “cruelty” of the outside world.
       </Card.Text>
     </Card.Body>
-    <Button variant="primary">Movie Details</Button>
+    <Button variant="primary">More Detailss</Button>
     <br/>
-    <Button variant="primary">Play Song</Button>
+    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='vRWzDWkgbTo' onClose={() => this.setState({isOpen: false})} />
+               <Button variant="primary"  onClick={this.openModal} >Play Song</Button>
   </Card>
   <Card text="white">
     <Card.Img variant="top" src={Villians} />

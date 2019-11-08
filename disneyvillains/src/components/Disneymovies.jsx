@@ -9,7 +9,6 @@ export default class Disneymovies extends Component {
     constructor(){
         super()
       }
-
       state = {
         films: TMDB,
         current: {}
@@ -34,8 +33,8 @@ export default class Disneymovies extends Component {
           <div className="Villainsmovies">
               <h2>Villians Movies</h2>
       <div className="film-library">
-        <Filmlist detailsClick={this.handleDetailsClick}  films={this.state.films.films} filmsImg={imges}/>
         <Filmdetails film={this.state.current} filmsImg={imges}/>
+        <Filmlist detailsClick={this.handleDetailsClick}  films={this.state.films.films} filmsImg={imges}/>
       </div>
     </div>
         )

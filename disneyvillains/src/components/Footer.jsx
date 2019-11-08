@@ -16,7 +16,7 @@ export default class Footer extends Component {
                 <a href="https://www.facebook.com" target="_blank"><Image src={Facebook}/></a>
                 <a href="https://twitter.com" target="_blank"><Image src={Twitter}/></a>
                 <a href="https://www.youtube.com" target="_blank"><Image src={Youtube}/></a>
-                </div>
+              </div>
              </Navbar>
              </BrowserRouter>
              </div>
