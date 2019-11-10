@@ -32,6 +32,18 @@ const TMDB = {
         "title": "Mother Gothel",
         "song": "https://youtu.be/vRWzDWkgbTo"
     },
+    {
+    "id": 10144,
+      "imagesvillain" : "http://images2.fanpop.com/image/photos/9500000/Ursula-disney-villains-9586464-800-600.jpg",
+        "title": "Ursula",
+     "song": "https://youtu.be/xfkkMHieqcI"
+    },
+    {
+      "id": 10693,
+        "imagesvillain" : "http://getwallpapers.com/wallpaper/full/2/f/e/1370201-vertical-captain-hook-wallpaper-2800x1800-computer.jpg",
+          "title": "Captain Hook",
+       "song": "https://youtu.be/pBFy2fQpHzg"
+      },
     
   ]
 }
